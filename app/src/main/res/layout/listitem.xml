@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="10dp"
+    app:cardElevation="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/pname"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="PlayerName"
+        android:textSize="20sp">
+    </TextView>
+        <TextView
+            android:id="@+id/ptag"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pname"
+            android:layout_centerHorizontal="true"
+            android:text="Player Id"
+            android:textSize="20sp">
+        </TextView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>
